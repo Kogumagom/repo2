@@ -1,0 +1,12 @@
+---
+title: "Diamondsfile2"
+author: "Sanghyeob Ko"
+date: "8/2/2022"
+output: pdf_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
